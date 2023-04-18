@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon panier</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="produit">
+        <h3>Produit 1</h3>
+        <img src="produit1.jpg" alt="Produit 1">
+        <p>Prix : <span class="prix">10.00</span> €</p>
+        <div>
+          <button class="moins">-</button>
+          <input type="number" value="0" min="0" max="10">
+          <button class="plus">+</button>
+        </div>
+      </div>
+      
+      <div class="produit">
+        <h3>Produit 2</h3>
+        <img src="produit2.jpg" alt="Produit 2">
+        <p>Prix : <span class="prix">20.00</span> €</p>
+        <div>
+          <button class="moins">-</button>
+          <input type="number" value="0" min="0" max="10">
+          <button class="plus">+</button>
+        </div>
+      </div>
+      
+      <div class="produit">
+        <h3>Produit 3</h3>
+        <img src="produit3.jpg" alt="Produit 3">
+        <p>Prix : <span class="prix">30.00</span> €</p>
+        <div>
+          <button class="moins">-</button>
+          <input type="number" value="0" min="0" max="10">
+          <button class="plus">+</button>
+        </div>
+      </div>
+      
+      <div id="panier">
+        <h3>Panier</h3>
+        <p>Nombre d'articles : <span id="nb-articles">0</span></p>
+        <p>Prix total : <span id="prix-total">0.00</span> €</p>
+      </div>
+      
+	<script src="script.js"></script>
+</body>
+</html>

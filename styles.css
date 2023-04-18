@@ -1,0 +1,38 @@
+.produit {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .produit img {
+    width: 100%;
+  }
+  
+  .produit button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .produit button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .produit input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  #panier {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #panier span {
+    font-weight: bold;
+  }
+  
